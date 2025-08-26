@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мультиязычный сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <button id="change-lang"></button>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <h1 id="welcome-text"></h1>
+      <p id="description"></p>
+      <div>
+        <img  class="img-post" src="./mario-post.webp" alt="img">
+      </div>
+    </div>
+  </main>
+  <b><footer id="footer"></footer></b>
+
+  <!-- Модальное окно -->
+  <div id="langModal" class="modal">
+    <div class="modal-content">
+      <button class="lang-btn" data-lang="uk">Українська</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="ru">Русский</button>
+    </div>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
